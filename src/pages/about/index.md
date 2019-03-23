@@ -1,19 +1,75 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: このブログについて
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+ご覧いただきありがとうございます。  
+本ブログでは、個人的に興味を持った技術について記載していきます。  
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+個人的なメモが多くなるかと思いますが、同じ技術に興味を持った方のお役に立てれば幸いです。
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+## Name
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+Masanori Iwakura [(GitHub Link)](https://github.com/MasanoriIwakura)
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+## Skills
+
+Level：5段階評価(⭐)
+
+|Language|Level|
+|:--|:--|
+|C#|⭐⭐⭐⭐|
+|VB.NET|⭐⭐⭐|
+|C|⭐|
+|C++|⭐|
+|Java|⭐⭐|
+|Python|⭐|
+|JavaScript|⭐⭐|
+|TypeScript|⭐|
+
+## Frameworks
+
+### C#, VB.NET
+
+|Name|Version|
+|:--|:--|
+|.NET Framework|4~|
+|.NET Core|1~|
+|Seasar .NET|2|
+|Entity Framework Core|-|
+
+### Python
+
+|Name|Version|
+|:--|:--|
+|Django|1.11.7|
+|Flask|1.0.2|
+
+※Pythonは触った程度
+
+### Java
+
+|Name|Version|
+|:--|:--|
+|Java EE|7|
+|Spring Framework|5|
+|Mybatis|3|
+
+### JavaScript
+
+|Name|Version|
+|:--|:--|
+|Vue|v1, v2|
+|Nuxt|2.0.0|
+
+## Others
+
+- Docker (少し業務で触って現在も勉強中)
+- Firebase (活用しています)
+- GCP (触った程度)
+- AWS (触った程度)
+- CentOS 7 (軽い構築可能)
+- Raspberry Pi 3, zero
+- Windows OS全般 (レジストリ等のOS設定可能)
+- IIS (設定可能)
+- Selenium (好きです)
+

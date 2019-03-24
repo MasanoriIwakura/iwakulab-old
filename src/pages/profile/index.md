@@ -2,14 +2,12 @@
 templateKey: about-page
 title: このブログについて
 ---
-ご覧いただきありがとうございます。  
-本ブログでは、個人的に興味を持った技術について記載していきます。  
-
-個人的なメモが多くなるかと思いますが、同じ技術に興味を持った方のお役に立てれば幸いです。
 
 ## Name
 
 Masanori Iwakura [(GitHub Link)](https://github.com/MasanoriIwakura)
+
+![GitHub icon](https://avatars1.githubusercontent.com/u/28638961?s=460&v=4)
 
 ## Skills
 

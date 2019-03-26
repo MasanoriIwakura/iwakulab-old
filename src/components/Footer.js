@@ -1,12 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { Location } from '@reach/router'
 
 import logo from '../img/iwakulab-logo.svg'
 import facebook from '../img/social/facebook.svg'
 import twitter from '../img/social/twitter.svg'
 import hateb from '../img/social/hatenabookmark-logomark.svg'
-
-const windowGlobal = typeof window !== 'undefined' && window
 
 const Footer = class extends React.Component {
   render() {
@@ -72,10 +71,7 @@ const Footer = class extends React.Component {
               <div className="column is-4 social">
                 <a
                   title="facebook"
-                  href={
-                    'http://www.facebook.com/share.php?u=' +
-                    windowGlobal.location.href
-                  }
+                  href={'http://www.facebook.com/share.php?u=' + Location.href}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -87,9 +83,7 @@ const Footer = class extends React.Component {
                 </a>
                 <a
                   title="twitter"
-                  href={
-                    'https://twiter.com/share?url=' + windowGlobal.location.href
-                  }
+                  href={'https://twiter.com/share?url=' + Location.href}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -104,7 +98,7 @@ const Footer = class extends React.Component {
                   title="hateb"
                   href={
                     'http://b.hatena.ne.jp/add?mode=confirm&url=' +
-                    windowGlobal.location.href
+                    Location.href
                   }
                   target="_blank"
                   rel="noopener noreferrer"

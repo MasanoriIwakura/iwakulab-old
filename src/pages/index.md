@@ -10,7 +10,7 @@ description: >-
 
   個人的なメモが多くなるかと思いますが、同じ技術に興味を持った方のお役に立てれば幸いです。
 mainpitch:
-  title: 
+  title: ''
   description: > 
 intro:
   blurbs:

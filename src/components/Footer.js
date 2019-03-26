@@ -6,6 +6,8 @@ import facebook from '../img/social/facebook.svg'
 import twitter from '../img/social/twitter.svg'
 import hateb from '../img/social/hatenabookmark-logomark.svg'
 
+const windowGlobal = typeof window !== 'undefined' && window
+
 const Footer = class extends React.Component {
   render() {
     return (
@@ -70,7 +72,7 @@ const Footer = class extends React.Component {
               <div className="column is-4 social">
                 <a
                   title="facebook"
-                  href={"http://www.facebook.com/share.php?u=" + window.location.href}
+                  href={"http://www.facebook.com/share.php?u=" + windowGlobal.location.href}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -82,7 +84,7 @@ const Footer = class extends React.Component {
                 </a>
                 <a
                   title="twitter"
-                  href={"https://twiter.com/share?url=" + window.location.href}
+                  href={"https://twiter.com/share?url=" + windowGlobal.location.href}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -95,7 +97,7 @@ const Footer = class extends React.Component {
                 </a>
                 <a
                   title="hateb"
-                  href={"http://b.hatena.ne.jp/add?mode=confirm&url=" + window.location.href}
+                  href={"http://b.hatena.ne.jp/add?mode=confirm&url=" + windowGlobal.location.href}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

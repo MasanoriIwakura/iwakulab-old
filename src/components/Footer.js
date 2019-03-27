@@ -8,7 +8,7 @@ import hateb from '../img/social/hatenabookmark-logomark.svg'
 
 const Footer = class extends React.Component {
   render() {
-    console.log(this)
+    console.log(this.props.location)
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">

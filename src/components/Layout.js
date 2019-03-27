@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 
+const windowGlobal = typeof window !== 'undefined' && window
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
@@ -46,7 +48,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       <Navbar />
       <div>{children}</div>
-      <Footer />
+      <Footer location={windowGlobal.location} />
     </div>
   )
 }

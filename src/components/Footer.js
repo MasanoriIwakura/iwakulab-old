@@ -71,7 +71,7 @@ const Footer = class extends React.Component {
               <div className="column is-4 social">
                 <a
                   title="facebook"
-                  href={'http://www.facebook.com/share.php?u=' + this.props.location.href}
+                  href={'http://www.facebook.com/share.php?u=' + this.props.location}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -83,7 +83,7 @@ const Footer = class extends React.Component {
                 </a>
                 <a
                   title="twitter"
-                  href={'https://twiter.com/share?url=' + this.props.location.href}
+                  href={'https://twiter.com/share?url=' + this.props.location}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -98,7 +98,7 @@ const Footer = class extends React.Component {
                   title="hateb"
                   href={
                     'http://b.hatena.ne.jp/add?mode=confirm&url=' +
-                    this.props.location.href
+                    this.props.location
                   }
                   target="_blank"
                   rel="noopener noreferrer"

@@ -22,8 +22,15 @@ $black: #2b2523
 .navbar-item
   color: whitesmoke !important
 
+.navbar-item:hover
+  @media screen and (max-width: 1087px)
+    color: $black !important
+
 .navbar-item img
   max-height: 3rem !important
+
+.navbar-burger span
+  background: white !important
 
 .content .taglist
   list-style: none
@@ -123,5 +130,14 @@ $menu-label-color: $white-ter
     height: 1em
     vertical-align: middle
     display: inline
+
+// 各ページのタイトル
+$page-title-color: #000000
+.page-title
+  box-shadow: $page-title-color 0.5rem 0px 0px, $page-title-color -0.5rem 0px 0px
+  background-color: $page-title-color
+  color: white !important
+  line-height: 1
+  padding: 0.25em
 
 @import "~bulma"

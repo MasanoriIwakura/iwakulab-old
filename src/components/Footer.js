@@ -2,13 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import logo from '../img/iwakulab-logo.svg'
-import facebook from '../img/social/facebook.svg'
-import twitter from '../img/social/twitter.svg'
-import hateb from '../img/social/hatenabookmark-logomark.svg'
 
 const Footer = class extends React.Component {
   render() {
-    console.log(this.props.location)
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
@@ -35,11 +31,6 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/hobby">
-                        Hobby Blog
-                      </Link>
-                    </li>
-                    <li>
                       <a
                         className="navbar-item"
                         href="/admin/"
@@ -61,54 +52,17 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
+                      <Link className="navbar-item" to="/hobby">
+                        Hobby Blog
+                      </Link>
+                    </li>
+                    <li>
                       <Link className="navbar-item" to="/contact">
                         Contact
                       </Link>
                     </li>
                   </ul>
                 </section>
-              </div>
-              <div className="column is-4 social">
-                <a
-                  title="facebook"
-                  href={'http://www.facebook.com/share.php?u=' + this.props.location}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a
-                  title="twitter"
-                  href={'https://twiter.com/share?url=' + this.props.location}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a
-                  title="hateb"
-                  href={
-                    'http://b.hatena.ne.jp/add?mode=confirm&url=' +
-                    this.props.location
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={hateb}
-                    alt="Hateb"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
               </div>
             </div>
           </div>
